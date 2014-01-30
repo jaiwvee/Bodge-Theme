@@ -60,7 +60,7 @@
 					<integer>392</integer>
 					
 					<key>ContentWidth</key>
-					<integer>1600</integer> <!-- # of Pages * 320 -->
+					<integer>640</integer> <!-- # of Pages * 320 -->
 					
 					<key>Frame</key>
 					<string>0,0,320,392</string>
@@ -146,88 +146,6 @@
 
 						<!-- ApplicationGrid: Page 2 -->
 
-						<!-- Mask: Page 2 -->
-						<dict>
-
-							<key>Frame</key>
-							<string>320,0,320,320</string> <!-- +320 contentOffsetX -->
-							
-							<key>Image</key>
-							<string>$ROOT/Images/Mask.png</string>
-							
-							<key>ViewType</key>
-							<string>ImageView</string>
-
-						</dict>
-						<!-- // Mask: Page 2 -->
-
-						<dict>
-
-							<key>AllApps</key>
-							<false/>
-							
-							<key>Apps</key>
-							<array>
-
-								<string>com.apple.mobilecal</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.mobiletimer</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.mobileslideshow</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.mobilephone</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.MobileSMS</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.Maps</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.mobilenotes</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.videos</string> <!-- REPLACEABLE CFBUNDLEID -->
-								<string>com.apple.gamecenter</string> <!-- REPLACEABLE CFBUNDLEID -->
-
-							</array>
-
-							<key>Cols</key>
-							<integer>3</integer>
-							
-							<key>Frame</key>
-							<string>376,92,222,222</string> <!-- +320 contentOffsetX -->
-							
-							<key>GapX</key>
-							<integer>74</integer>
-							
-							<key>GapY</key>
-							<integer>74</integer>
-							
-							<key>IconHeight</key>
-							<integer>60</integer>
-							
-							<key>IconWidth</key>
-							<integer>60</integer>
-							
-							<key>PageWidth</key>
-							<integer>320</integer>
-
-							<key>Rows</key>
-							<integer>3</integer>
-							
-							<key>ViewType</key>
-							<string>AppGrid</string>
-
-						</dict>
-						<!-- // Application Grid: Page 2 -->
-
-						<!-- ApplicationGrid: Page 3 -->
-
-						<!-- Mask: Page 3 -->
-						<dict>
-
-							<key>Frame</key>
-							<string>640,0,320,320</string> <!-- +640 contentOffsetX -->
-							
-							<key>Image</key>
-							<string>$ROOT/Images/Mask.png</string>
-							
-							<key>ViewType</key>
-							<string>ImageView</string>
-
-						</dict>
-						<!-- // Mask: Page 3 -->
-
 						<dict>
 
 							<key>AllApps</key>
@@ -237,13 +155,13 @@
 							<integer>3</integer>
 							
 							<key>Frame</key>
-							<string>696,92,222,222</string> <!-- +640 contentOffsetX -->
+							<string>376,92,222,212</string> <!-- +320 contentOffsetX -->
 							
 							<key>GapX</key>
 							<integer>74</integer>
 							
 							<key>GapY</key>
-							<integer>74</integer>
+							<integer>94</integer>
 							
 							<key>IconHeight</key>
 							<integer>60</integer>
@@ -258,7 +176,22 @@
 							<string>AppGrid</string>
 
 						</dict>
-						<!-- // Application Grid: Page 3 -->
+						<!-- // Application Grid: Page 2 -->
+
+						<!-- Underlay: Page 2 -->
+						<dict>
+
+							<key>Frame</key>
+							<string>320,0,320,320</string> <!-- +320 contentOffsetX -->
+							
+							<key>Image</key>
+							<string>$ROOT/Images/Underlay.png</string>
+							
+							<key>ViewType</key>
+							<string>ImageView</string>
+
+						</dict>
+						<!-- // Underlay: Page 2 -->
 						
 					</array>
 
