@@ -102,7 +102,7 @@
 							<key>Apps</key>
 							<array>
 
-								<string>com.apple.Music</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.mobileslideshow</string> <!-- REPLACEABLE CFBUNDLEID -->
 								<string>com.apple.mobilemail</string> <!-- REPLACEABLE CFBUNDLEID -->
 								<string>com.apple.mobilesafari</string> <!-- REPLACEABLE CFBUNDLEID -->
 								<string>com.apple.Preferences</string> <!-- REPLACEABLE CFBUNDLEID -->
@@ -155,7 +155,7 @@
 							<integer>3</integer>
 							
 							<key>Frame</key>
-							<string>376,92,222,212</string> <!-- +320 contentOffsetX -->
+							<string>376,92,222,212</string> <!-- +320 offsetX -->
 							
 							<key>GapX</key>
 							<integer>74</integer>
@@ -182,7 +182,7 @@
 						<dict>
 
 							<key>Frame</key>
-							<string>320,0,320,320</string> <!-- +320 contentOffsetX -->
+							<string>320,0,320,320</string> <!-- +320 offsetX -->
 							
 							<key>Image</key>
 							<string>$ROOT/Images/Underlay.png</string>
@@ -203,9 +203,12 @@
 
 					<key>ContentHeight</key>
 					<integer>192</integer>
+
+					<key>ContentOffsetX</key>
+					<integer>320</integer>
 					
 					<key>ContentWidth</key>
-					<integer>640</integer>
+					<integer>960</integer> <!-- # of Icons * 320 -->
 					
 					<key>Frame</key>
 					<string>0,568,320,200</string>
@@ -243,11 +246,31 @@
 						</dict>
 
 						<dict>
+
 							<key>BundleID</key>
 							<string>com.wynd.dreamboard</string>
 							
 							<key>Frame</key>
-							<string>320,0,320,200</string>
+							<string>320,0,320,200</string> <!-- +320 offsetX -->
+							
+							<key>IconHeight</key>
+							<integer>192</integer>
+							
+							<key>IconWidth</key>
+							<integer>320</integer>
+							
+							<key>ViewType</key>
+							<string>AppIcon</string>
+
+						</dict>
+
+						<dict>
+							
+							<key>BundleID</key>
+							<string>com.apple.Music</string>
+							
+							<key>Frame</key>
+							<string>640,0,320,200</string> <!-- +640 offsetX -->
 							
 							<key>IconHeight</key>
 							<integer>192</integer>
