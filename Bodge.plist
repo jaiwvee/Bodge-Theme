@@ -102,15 +102,15 @@
 							<key>Apps</key>
 							<array>
 
-								<string>com.apple.Music</string>
-								<string>com.apple.mobilemail</string>
-								<string>com.apple.mobilesafari</string>
-								<string>com.apple.Preferences</string>
-								<string>com.apple.weather</string>
-								<string>com.apple.calculator</string>
-								<string>com.apple.camera</string>
-								<string>com.apple.facetime</string>
-								<string>com.apple.VoiceMemos</string>
+								<string>com.apple.Music</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.mobilemail</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.mobilesafari</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.Preferences</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.weather</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.calculator</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.camera</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.facetime</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.VoiceMemos</string> <!-- REPLACEABLE CFBUNDLEID -->
 
 							</array>
 
@@ -169,15 +169,15 @@
 							<key>Apps</key>
 							<array>
 
-								<string>com.apple.mobilecal</string>
-								<string>com.apple.mobiletimer</string>
-								<string>com.apple.mobileslideshow</string>
-								<string>com.apple.mobilephone</string>
-								<string>com.apple.MobileSMS</string>
-								<string>com.apple.Maps</string>
-								<string>com.apple.mobilenotes</string>
-								<string>com.apple.videos</string>
-								<string>com.apple.gamecenter</string>
+								<string>com.apple.mobilecal</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.mobiletimer</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.mobileslideshow</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.mobilephone</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.MobileSMS</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.Maps</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.mobilenotes</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.videos</string> <!-- REPLACEABLE CFBUNDLEID -->
+								<string>com.apple.gamecenter</string> <!-- REPLACEABLE CFBUNDLEID -->
 
 							</array>
 
@@ -231,22 +231,7 @@
 						<dict>
 
 							<key>AllApps</key>
-							<false/>
-							
-							<key>Apps</key>
-							<array>
-
-								<string>com.apple.MobileAddressBook</string>
-								<string>com.apple.stocks</string>
-								<string>com.apple.MobileStore</string>
-								<string>com.apple.reminders</string>
-								<string>com.apple.Passbook</string>
-								<string>com.apple.compass</string>
-								<string>com.apple.Pages</string>
-								<string>com.apple.Keynote</string>
-								<string>com.PixelKinetics.Sumhold</string>
-
-							</array>
+							<true/>
 
 							<key>Cols</key>
 							<integer>3</integer>
@@ -268,149 +253,12 @@
 							
 							<key>PageWidth</key>
 							<integer>320</integer>
-
-							<key>Rows</key>
-							<integer>3</integer>
 							
 							<key>ViewType</key>
 							<string>AppGrid</string>
 
 						</dict>
 						<!-- // Application Grid: Page 3 -->
-
-						<!-- ApplicationGrid: Page 4 -->
-
-						<!-- Mask: Page 4 -->
-						<dict>
-
-							<key>Frame</key>
-							<string>960,0,320,320</string> <!-- +960 contentOffsetX -->
-							
-							<key>Image</key>
-							<string>$ROOT/Images/Mask.png</string>
-							
-							<key>ViewType</key>
-							<string>ImageView</string>
-
-						</dict>
-						<!-- // Mask: Page 4 -->
-
-						<dict>
-
-							<key>AllApps</key>
-							<false/>
-							
-							<key>Apps</key>
-							<array>
-
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-
-							</array>
-
-							<key>Cols</key>
-							<integer>3</integer>
-							
-							<key>Frame</key>
-							<string>1016,92,222,222</string> <!-- +960 contentOffsetX -->
-							
-							<key>GapX</key>
-							<integer>74</integer>
-							
-							<key>GapY</key>
-							<integer>74</integer>
-							
-							<key>IconHeight</key>
-							<integer>60</integer>
-							
-							<key>IconWidth</key>
-							<integer>60</integer>
-							
-							<key>PageWidth</key>
-							<integer>320</integer>
-
-							<key>Rows</key>
-							<integer>3</integer>
-							
-							<key>ViewType</key>
-							<string>AppGrid</string>
-
-						</dict>
-						<!-- // Application Grid: Page 4 -->
-
-						<!-- ApplicationGrid: Page 5 -->
-
-						<!-- Mask: Page 5 -->
-						<dict>
-
-							<key>Frame</key>
-							<string>1280,0,320,320</string> <!-- +1280 contentOffsetX -->
-							
-							<key>Image</key>
-							<string>$ROOT/Images/Mask.png</string>
-							
-							<key>ViewType</key>
-							<string>ImageView</string>
-
-						</dict>
-						<!-- // Mask: Page 5 -->
-
-						<dict>
-
-							<key>AllApps</key>
-							<false/>
-							
-							<key>Apps</key>
-							<array>
-
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-								<string>CFBUNDLEIDENTIFIER</string>
-
-							</array>
-
-							<key>Cols</key>
-							<integer>3</integer>
-							
-							<key>Frame</key>
-							<string>1336,92,222,222</string> <!-- +1280 contentOffsetX -->
-							
-							<key>GapX</key>
-							<integer>74</integer>
-							
-							<key>GapY</key>
-							<integer>74</integer>
-							
-							<key>IconHeight</key>
-							<integer>60</integer>
-							
-							<key>IconWidth</key>
-							<integer>60</integer>
-							
-							<key>PageWidth</key>
-							<integer>320</integer>
-
-							<key>Rows</key>
-							<integer>3</integer>
-							
-							<key>ViewType</key>
-							<string>AppGrid</string>
-
-						</dict>
-						<!-- // Application Grid: Page 5 -->
 						
 					</array>
 
@@ -515,21 +363,6 @@
 
 					</dict>
 					<!-- // Arrow -->
-				
-				<!-- Dash Background ** REPLACED BY WALL 1/28 **
-				<dict>
-
-					<key>Frame</key>
-					<string>0,392,320,568</string>
-					
-					<key>Image</key>
-					<string>$ROOT/Images/Dash.png</string>
-					
-					<key>ViewType</key>
-					<string>ImageView</string>
-
-				</dict>
-				<!-- Dash Background -->
 
 				<!-- Wallpaper -->
 				<dict>
