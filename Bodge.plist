@@ -9,7 +9,7 @@
 
 		<string>views.dash.alpha = 0</string>
 		<string>views.wrapper.contentOffsetY = 392</string>
-		<string>views.dash.alpha = 1 animated:1.5</string>
+		<string>views.dash.alpha = 1 animated:2</string>
 
 	</array>
 	<!-- // Onload -->
