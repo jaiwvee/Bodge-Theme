@@ -7,9 +7,9 @@
 	<key>Onload</key>
 	<array>
 
-		<string>views.dash.alpha = 0</string>
 		<string>views.wrapper.contentOffsetY = 392</string>
-		<string>views.dash.alpha = 1 animated:2</string>
+		<string>views.wrapper.alpha = 0</string>
+		<string>views.wrapper.alpha = 1 animated:1</string>
 
 	</array>
 	<!-- // Onload -->
@@ -81,21 +81,6 @@
 					
 						<!-- ApplicationGrid: Page 1 -->
 
-						<!-- Mask: Page 1 -->
-						<dict>
-
-							<key>Frame</key>
-							<string>0,0,320,320</string>
-							
-							<key>Image</key>
-							<string>$ROOT/Images/Mask.png</string>
-							
-							<key>ViewType</key>
-							<string>ImageView</string>
-
-						</dict>
-						<!-- // Mask: Page 1 -->
-
 						<dict>
 
 							<key>AllApps</key>
@@ -163,7 +148,7 @@
 							<integer>74</integer>
 							
 							<key>GapY</key>
-							<integer>74</integer>
+							<integer>76</integer>
 							
 							<key>IconHeight</key>
 							<integer>60</integer>
@@ -207,7 +192,7 @@
 					<integer>192</integer>
 					
 					<key>ContentWidth</key>
-					<integer>640</integer> <!-- # of Icons * 320 -->
+					<integer>960</integer> <!-- # of Icons * 320 -->
 					
 					<key>Frame</key>
 					<string>0,568,320,200</string>
@@ -254,6 +239,25 @@
 							
 							<key>Frame</key>
 							<string>320,0,320,200</string> <!-- +320 offsetX -->
+							
+							<key>IconHeight</key>
+							<integer>192</integer>
+							
+							<key>IconWidth</key>
+							<integer>320</integer>
+							
+							<key>ViewType</key>
+							<string>AppIcon</string>
+
+						</dict>
+
+						<dict>
+
+							<key>BundleID</key>
+							<string>com.saurik.WinterBoard</string>
+							
+							<key>Frame</key>
+							<string>640,0,320,200</string> <!-- +640 offsetX -->
 							
 							<key>IconHeight</key>
 							<integer>192</integer>
